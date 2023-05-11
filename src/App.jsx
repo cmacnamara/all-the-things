@@ -81,10 +81,11 @@ const App = () => {
   const eunicesThings = [
     {
       name: "doggos",
-      image: "https://1.bp.blogspot.com/-S6ryaE6HuZg/Upvh2oS7q9I/AAAAAAAAGcI/R2-QDRd6A7o/s640/P+brain.png",  
+      image: "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHw%3D&w=1000&q=80",  
       attributes: ["cuteness", "happy puppy"],
     },
   ]
+  
 
   return (
     <Routes>
