@@ -78,6 +78,13 @@ const App = () => {
     },
   ]
 
+  const eunicesThings = [
+    {
+      name: "doggos",
+      image: "https://1.bp.blogspot.com/-S6ryaE6HuZg/Upvh2oS7q9I/AAAAAAAAGcI/R2-QDRd6A7o/s640/P+brain.png",  
+      attributes: ["cuteness", "happy puppy"],
+    },
+  ]
 
   return (
     <Routes>
