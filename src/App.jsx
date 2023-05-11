@@ -78,6 +78,9 @@ const App = () => {
     },
   ]
 
+  //what happens to this code if i don't commit it but pulldown upstream?  
+
+  
   const eunicesThings = [
     {
       name: "doggos",
