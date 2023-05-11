@@ -3,6 +3,7 @@ import ManliestThings from './pages/ManliestThings/ManliestThings'
 import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SillyThings'
 import Landing from './pages/Landing/Landing'
+import DanielThings from './pages/DanielThings/DanielThings'
 
 const App = () => {
   const bensThings = [
@@ -70,24 +71,13 @@ const App = () => {
     },
   ]
 
-  const danielsThings = [
+  const danielThings = [
     {
       name: "energy drinks",
       image: "https://1.bp.blogspot.com/-S6ryaE6HuZg/Upvh2oS7q9I/AAAAAAAAGcI/R2-QDRd6A7o/s640/P+brain.png",  
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
   ]
-
-  const danielsThings = [
-    {
-      name: "energy drinks",
-      image: "https://1.bp.blogspot.com/-S6ryaE6HuZg/Upvh2oS7q9I/AAAAAAAAGcI/R2-QDRd6A7o/s640/P+brain.png",  
-      attributes: ["efficient", "reusability", "not a taco", "beautiful"],
-    },
-  ]
-
-  //what happens to this code if i don't commit it but pulldown upstream?  
-
 
   const eunicesThings = [
     {
