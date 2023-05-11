@@ -61,6 +61,14 @@ const App = () => {
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
   ]
+  
+  const chrisThings = [
+    {
+      name: "music",
+      image: "https://m.media-amazon.com/images/I/41TEemnxOdL.jpg",  
+      attributes: ["guitar", "fun", "pretty", "melodious"],
+    },
+  ]
 
   return (
     <Routes>
