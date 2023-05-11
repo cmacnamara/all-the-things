@@ -70,6 +70,15 @@ const App = () => {
     },
   ]
 
+  const danielsThings = [
+    {
+      name: "energy drinks",
+      image: "https://1.bp.blogspot.com/-S6ryaE6HuZg/Upvh2oS7q9I/AAAAAAAAGcI/R2-QDRd6A7o/s640/P+brain.png",  
+      attributes: ["efficient", "reusability", "not a taco", "beautiful"],
+    },
+  ]
+
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
@@ -91,3 +100,4 @@ const App = () => {
 }
 
 export default App
+
