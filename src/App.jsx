@@ -76,9 +76,9 @@ const App = () => {
 
   const danielThings = [
     {
-      name: "energy drinks",
+      name: "funny blogs",
       image: "https://1.bp.blogspot.com/-S6ryaE6HuZg/Upvh2oS7q9I/AAAAAAAAGcI/R2-QDRd6A7o/s640/P+brain.png",  
-      attributes: ["efficient", "reusability", "not a taco", "beautiful"],
+      attributes: ["cerebral", "distraction", "no bueno"],
     },
   ]
 
@@ -114,6 +114,10 @@ const App = () => {
       <Route
         path="/chris-things"
         element={<ChrisThings things={chrisThings} />}
+      />
+      <Route
+        path="/the-daniel-things"
+        element={<DanielThings things={danielThings} />}
       />
     </Routes>
   )
