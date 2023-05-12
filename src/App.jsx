@@ -108,6 +108,14 @@ const App = () => {
         element={<SillyThings things={huntersThings} />}
       />
       <Route
+        path="/the-sad-things"
+        element={<EunicesThings things={eunicesThings} />}
+      />
+      <Route
+        path="/chris-things"
+        element={<ChrisThings things={chrisThings} />}
+      />
+      <Route
         path="/the-daniel-things"
         element={<DanielThings things={danielThings} />}
       />
